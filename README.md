@@ -31,3 +31,7 @@ Each investigation will include:
 - Investigation steps and findings
 - Recommended response
 - Limitations and possible false positives
+- 
+## Completed Investigations
+
+- [PowerShell Launching a Command Shell](investigations/01-powershell-command-shell.md)
