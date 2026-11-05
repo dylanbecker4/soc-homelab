@@ -1,37 +1,46 @@
-# SOC Homelab: Active Directory and Wazuh
+# Cybersecurity Homelab
 
-## Overview
-I built this lab to practice Windows administration and develop
-the investigation skills needed for a cybersecurity analyst role.
+I built this homelab to practice my cybersecurity skills and get more comfortable working through security problems on my own. I’m interested in SOC/Blue Team work, network security, and identity management, so I’m using this repository to document what I build, test, and learn along the way.
 
-My goal is to collect security logs, investigate suspicious activity,
-and document findings with evidence and recommended next steps.
+My goal is to understand what’s happening behind the tools—what caused an event, what evidence it left behind, and how I would investigate it.
 
-## Lab Environment
-- VMware Workstation
-- Windows Server 2025 domain controller with Active Directory and DNS
-- Windows 11 domain-joined client
-- Ubuntu server running Wazuh
+## Projects
 
-## Current Progress
-- Configured Active Directory and DNS.
-- Joined a Windows 11 client to the domain.
-- Installed Wazuh and accessed its web dashboard.
+### Security Monitoring and Investigations
 
-## Planned Investigations
-- Collect and investigate Sysmon events from the Windows client.
-- Analyze failed logins followed by a successful login.
-- Monitor changes to privileged Active Directory groups.
-- Create and test a custom detection rule.
+I use my Windows and Wazuh environment to generate activity, review alerts, and practice investigating security events. My write-ups explain what I tested, what appeared in the logs, and what I learned.
 
-## Investigation Documentation
-Each investigation will include:
-- The scenario and lab setup
-- Relevant logs and screenshots
-- Investigation steps and findings
-- Recommended response
-- Limitations and possible false positives
-- 
-## Completed Investigations
+[View investigation write-ups](investigations/)
 
-- [PowerShell Launching a Command Shell](investigations/01-powershell-command-shell.md)
+### Cloud Identity Security
+
+I’m also building experience with Microsoft Entra ID, including managing users and groups, assigning administrative permissions, and reviewing account activity.
+
+For my first cloud identity project, I used a Toronto Raptors theme to make the lab a little more personal.
+
+[Toronto Raptors Entra ID Lab](azure/entra-id-raptors/README.md)
+
+## Skills I’m Practicing
+
+- Investigating security alerts and reading logs
+- Managing Windows Server and Active Directory
+- Managing cloud identities and permissions
+- Applying least privilege
+- Troubleshooting authentication and access issues
+- Documenting findings with screenshots and explanations
+
+## How I Approach Each Lab
+
+1. Choose a skill or scenario to practice.
+2. Configure the environment and run a controlled test.
+3. Review the logs and check whether the result matches what I expected.
+4. Document the findings, troubleshooting, and lessons learned.
+
+## What’s Next
+
+- Build a Python log-analysis tool
+- Create a phishing email analysis project
+- Expand cloud identity testing and monitoring
+- Continue practicing investigations across my lab environments
+
+This repository is a work in progress as I keep learning. All testing is performed in environments I own or am authorized to use. Screenshots are reviewed and sensitive details are removed before publication.
