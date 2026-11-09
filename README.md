@@ -12,13 +12,10 @@ I use my Windows and Wazuh environment to generate activity, review alerts, and 
 
 [View investigation write-ups](investigations/)
 
-### Cloud Identity Security
+### Cloud Identity and Detection
 
-I’m also building experience with Microsoft Entra ID, including managing users and groups, assigning administrative permissions, and reviewing account activity.
-
-For my first cloud identity project, I used a Toronto Raptors theme to make the lab a little more personal.
-
-[Toronto Raptors Entra ID Lab](azure/entra-id-raptors/README.md)
+- [Toronto Raptors Entra ID Lab](azure/entra-id-raptors/README.md) — I set up test users and groups, delegated password resets to a help desk account, and investigated audit and sign-in logs.
+- [Raptors Security Operations — Microsoft Sentinel Lab](azure/raptors-sentinel/README.md) — I connected Entra audit logs to Sentinel, wrote a KQL rule to detect admin password resets, and investigated and closed a test incident as Benign Positive.
 
 ## Skills I’m Practicing
 
