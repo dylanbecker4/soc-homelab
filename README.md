@@ -16,6 +16,7 @@ I use my Windows and Wazuh lab to generate activity, review alerts, and practice
 
 - [Toronto Raptors Entra ID Lab](azure/entra-id-raptors/README.md) — I created test users and groups, delegated password resets to a help desk account, and investigated audit and sign-in logs.
 - [Raptors Security Operations — Microsoft Sentinel Lab](azure/raptors-sentinel/README.md) — I connected Entra audit logs to Sentinel and built a scheduled analytics rule using KQL to detect admin password resets. I traced a test alert back to the original audit event and closed the incident as **Benign Positive**.
+- [Raptors Network Security Lab](azure/raptors-network-security/README.md) — I configured an Azure virtual network and NSG, forwarded Azure Activity logs to Sentinel, and built a KQL detection for successful security rule changes. I investigated the resulting incident and closed it as Benign Positive.
 
 ## Skills I’m Practicing
 
@@ -25,6 +26,8 @@ I use my Windows and Wazuh lab to generate activity, review alerts, and practice
 - Writing KQL queries and building scheduled detections in Microsoft Sentinel
 - Troubleshooting authentication and access issues
 - Documenting findings with screenshots and explanations
+- Configuring Azure virtual networks, subnets, and Network Security Groups
+- Monitoring Azure resource changes through Activity Log and Microsoft Sentinel
 
 ## How I Approach Each Lab
 
